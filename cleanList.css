@@ -1,0 +1,104 @@
+@font-face {
+	font-family: Montserrat-Medium;
+	src: url(Montserrat-Medium.otf);
+}
+
+@font-face {
+	font-family: Montserrat-ExtraBold;
+	src: url(Montserrat-ExtraBold.otf);
+}
+
+body {
+	margin: 0px;
+	background-image: url("https://d3c2plo0qyv3hc.cloudfront.net/images/content/bible_journal/bible-journal-1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-family: Montserrat-ExtraBold;
+	font-size: 80px;
+	color: #ffffff;
+	
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+select, button, input {
+	font-family: Montserrat-ExtraBold;
+	font-size: 20px;
+	color: #15282F;
+	
+	border-width: 5px;
+	border-radius: 5px;
+	background-color: #ffffff;
+	border-color: #ffffff;
+	border-style: solid;
+	
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+}
+
+input[type="button"].tranButton {
+	font-family: Montserrat-ExtraBold;
+	font-size: 20px;
+	color: white;
+	background-color: #15282F;
+	padding: 50px;
+}
+
+select {
+	width: 25%;
+}
+
+img {
+	width: 50%;
+}
+
+hr {
+	margin:0px;
+	border-style: none;
+}
+
+select:hover, button:hover, input:hover {
+	background-color: #dddddd;
+	border-color: #dddddd;
+	border-style: solid;
+}
+
+.centredDiv {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.outImage {
+	text-align: center;
+	border-width: 10px;
+	border-radius: 10px;
+}
+
+.inLabel {
+	font-family: Montserrat-ExtraBold;
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.message {
+	font-family: Montserrat-ExtraBold;
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	margin: 0px;
+	padding-top: 15px;
+}
+
+.smallText {
+	margin-top: 50px;
+	font-family: Montserrat-ExtraBold;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}

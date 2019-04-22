@@ -1,0 +1,5 @@
+bread
+meat
+fruitveg
+electronics
+alcohol
